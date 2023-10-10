@@ -28,5 +28,7 @@ This callback will be called when the player enters the water, or when the playe
 
 public OnPlayerEnterWater(playerid)
 {
-  return 1;
+
+   return 1;
+   
 }
