@@ -5,6 +5,9 @@ Sorry for my English, I'm not fluent or an expert
 PT/BR 🇧🇷
 e quem disse qua pinguim não voa
 
+add LoopWater(); function in OnGamemodeInit
+
+
 Functions
 
 IsPlayerInWater(playerid)
@@ -27,8 +30,7 @@ IsVehicleInWater(vehicleid)
 This callback will be called when the player enters the water, or when the player is in the water
 
 public OnPlayerEnterWater(playerid)
-{
 
+{
    return 1;
-   
 }
